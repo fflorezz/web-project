@@ -1,0 +1,52 @@
+// Colors
+$color-primary: #0083ff;
+$color-primary-drk: #097dea;
+$color-primary-drk-2: #003362;
+$color-primary-med: #dff0fe;
+$color-primary-lgt: #f6fbff;
+$color-primary-lgt-2: #daefff;
+$color-primary-lgt-3: #f3f9ff;
+
+$color-secondary: #8dd393;
+$color-secondary-med: #e0f2e0;
+$color-secondary-lgt: #f3f9ed;
+
+$color-tertiary: #f6a69b;
+$color-tertiary-med: #f9ebdd;
+$color-tertiary-lgt: #fdf9f5;
+$color-tertiary-lgt-2: #f8ede3;
+$color-tertiary-lgt-3: #f8eee4;
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-gray: #003362;
+$color-gray-lgt: rgba($color-gray, .7);
+
+// Typography ../../assets/fonts/font
+@font-face {
+	font-family: "Gothamaniacitorialis";
+	font-weight: 400;
+	src: url("../../assets/fonts/font");
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-weight: 500;
+	src: url("../fonts/Gotham-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-weight: 500;
+	font-style: italic;
+	src: url("../fonts/Gotham-Medium-Italic.ttf");
+}
+
+@font-face {
+	font-family: "Gotham";
+	font-weight: 700;
+	src: url("../fonts/Gotham-Black.ttf");
+}
+
+$font-main: "Gotham", "Helvetica", "Arial", sans-serif;
